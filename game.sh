@@ -16,6 +16,7 @@ main(){
 				${dir}/tools/w3x2lni/bin/w3x2lni-lua.exe ${dir}/tools/语法检查.lua ${dir}
 	    		;;
 	    	obj)
+				rm ${dir}/${map_name} -rf
 				${dir}/tools/w3x2lni/w2l.exe obj ${dir} ${dir}/${map_name}
 	    		;;
 	    	lni)

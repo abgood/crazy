@@ -1,4 +1,4 @@
-# This is crazy monster base one war3
+# This is crazy monster based one war3
 
 # vim lua tags
 ctags.exe 5.8
