@@ -375,7 +375,7 @@ function helper:sha1(name)
 	local file = storm.load(name)
 	local sign = rsa:get_sign(file)
 	print(sign)
-	storm.save('我的英雄不可能那么萌\\sign.txt', sign)
+	storm.save('无尽求生\\sign.txt', sign)
 end
 
 local show_message = false

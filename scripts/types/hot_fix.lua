@@ -8,7 +8,7 @@ local rsa = require 'util.rsa'
 local hot_fix = {}
 
 local ver_name = base.version
-local dir_hot_fix = '我的英雄不可能那么萌\\热补丁\\' .. ver_name .. '\\'
+local dir_hot_fix = 'crazy_monster\\hot_fix\\' .. ver_name .. '\\'
 
 local logs = {}
 

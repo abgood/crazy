@@ -19,11 +19,12 @@ main(){
 				rm ${dir}/${map_name} -rf
 				${dir}/tools/w3x2lni/w2l.exe obj ${dir} ${dir}/${map_name}
 	    		;;
+	    	slk)
+				rm ${dir}/${map_name} -rf
+				${dir}/tools/w3x2lni/w2l.exe slk ${dir} ${dir}/${map_name}
+	    		;;
 	    	lni)
 				${dir}/tools/w3x2lni/w2l.exe lni ${dir}/${map_name} ${dir} 
-	    		;;
-	    	slk)
-				${dir}/tools/w3x2lni/w2l.exe slk ${dir} ${dir}/${map_name}
 	    		;;
 		esac
 	done

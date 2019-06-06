@@ -10,7 +10,7 @@ return ac.hero.create '小悟空'
 
 	production = '龙珠',
 
-	model_source = '魔霸工作室(动作:月真)',
+	model_source = '可牧工作室(动作:月真)',
 
 	hero_designer = 'ZN',
 
